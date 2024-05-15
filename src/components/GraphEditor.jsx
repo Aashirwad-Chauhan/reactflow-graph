@@ -6,7 +6,8 @@ import ReactFlow, {
   Controls,
   useEdgesState,
   useNodesState,
-  ReactFlowProvider
+  ReactFlowProvider,
+  MiniMap
 } from "reactflow";
 import "reactflow/dist/style.css";
 import { v4 as uuidv4 } from 'uuid';
@@ -71,7 +72,7 @@ const GraphEditor = () => {
   const selectedNode = nodes.find(node => node.id === selectedNodeId);
 
   return (
-        <Box height={"700px"} width="900px" border="1px solid black">
+        <Box height={"700px"} width="1000px" border="1px solid black">
           <ReactFlowProvider>
             <ReactFlow
               nodes={nodes}
@@ -85,6 +86,7 @@ const GraphEditor = () => {
             >
               <Background />
               <Controls />
+              <MiniMap />
             </ReactFlow>
             {selectedNodeId && isPopupOpen && (
               <NodeOptionsPopup
