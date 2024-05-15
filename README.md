@@ -1,8 +1,24 @@
-# React + Vite
+﻿# Read Me!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Install Dependencies
+- **Frontend**: npm i && npm run dev
 
-Currently, two official plugins are available:
+# Technologies Used
+-   **React.js**: JavaScript library for building user interfaces.
+-   **JavaScript**: JavaScript programming language.
+- **ReactFlow Lib**: For graphs and other components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features
+-   **CUD operations**:  Create, Update and Delete nodes on the graph plane.
+
+# Scaling and Future advancements
+- **Different Types of Nodes and Edges**: shapes, colors, etc..
+- **Photo and Gif integration**: instead of text data, pic and gif can be embedded.
+- **Snapshot and file download capabilities of design**
+- **Dynamic UI**:  for better user experience.
+- **Quick Rendering of Components for better performance**
+
+
+
+
+
